@@ -1,0 +1,1 @@
+This folder serves to store sqlite db, which due to it's size is not to be uploaded to github

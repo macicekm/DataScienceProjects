@@ -1,0 +1,1 @@
+This is a project for a competition organized by Home Credit on Kaggle https://www.kaggle.com/c/home-credit-default-risk
