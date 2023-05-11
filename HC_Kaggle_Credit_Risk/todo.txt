@@ -1,22 +1,42 @@
 TODO:
     
-    write some overview
-    Run a grid of parameters on xgb and evaluate the results # https://machinelearningmastery.com/xgboost-for-imbalanced-classification/
-    [DONE] Remove overfitting from existing xgb model
-    GIT this
-    Add some method of predictors pre-selection - ridge regression?
-    Build some simple model score that will be entering another model (like the riskiness of some of the categories)
-    get WOEs into the logistic regression
-    build stepwise logistic regression
-    for logistic regression prepare correlation of predictors matrix
-    add pipeline into processing
-    switch data saving and processing to spark/parquet
-    [DONE] add lift charts
-    [DONE] add 1-average score vs. default rate chart with diagonal optimal line
-    split modelling and evaluation notebooks
-    explain the model with SHAPs
-    try blackbox explainer
-    try create separate models on each data set and then combine the pillars
-    try lightGBM (from lightgbm import LGBMClassifier)
-    try catBoost (from catboost import CatBoostClassifier)
-    [DONE] split sample for boosting models to train/valid/test and tune it based on valid sample improvements
+    
+write some overview
+    
+Run a grid of parameters on xgb and evaluate the results # https://machinelearningmastery.com/xgboost-for-imbalanced-classification/
+    
+[DONE] Remove overfitting from existing xgb model
+    
+[DONE] GIT this
+    
+Add some method of predictors pre-selection - ridge regression?
+    
+Build some simple model score that will be entering another model (like the riskiness of some of the categories)
+   
+get WOEs into the logistic regression
+    
+build stepwise logistic regression
+    
+for logistic regression prepare correlation of predictors matrix
+    
+add pipeline into processing
+    
+switch data saving and processing to spark/parquet
+    
+[DONE] add lift charts
+    
+[DONE] add 1-average score vs. default rate chart with diagonal optimal line
+   
+split modelling and evaluation notebooks
+    
+explain the model with SHAPs
+    
+try blackbox explainer
+    
+try create separate models on each data set and then combine the pillars
+    
+try lightGBM (from lightgbm import LGBMClassifier)
+    
+try catBoost (from catboost import CatBoostClassifier)
+   
+[DONE] split sample for boosting models to train/valid/test and tune it based on valid sample improvements
