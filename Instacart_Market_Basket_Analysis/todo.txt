@@ -1,0 +1,14 @@
+Study the literature about market basket analysis
+
+Search for discontinued products, as these customers wouldn't be able to purchase.
+Check how to find out, whether customer is actually gonna place another order >> separate model? - predict NPD (next purchase day)
+
+Create a model that generates the vector of probabilities of each product that will put into the basket.
+Create a separate linear regression model, that predicts how many products is client likely to purchase.
+Based on that, setup a threshold, sort products by probabilities, and set cutoff based on the linear regression model.
+For the product target, select a TOP-N relevant products for recommendation based on frequency analysis.
+
+Try some sequential method, by learning from previous to next purchase, not only from aggregation to final purchase
+
+# read some hints from here: https://www.kaggle.com/competitions/instacart-market-basket-analysis/discussion/36848
+# read a paper about e-commerce modelling https://www.kdd.org/kdd2016/papers/files/adf0160-liuA.pdf
