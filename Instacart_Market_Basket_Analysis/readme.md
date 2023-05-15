@@ -1,0 +1,1 @@
+This is a project for a competition organized by Instacard on Kaggle https://www.kaggle.com/competitions/instacart-market-basket-analysis/
